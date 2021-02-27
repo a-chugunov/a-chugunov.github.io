@@ -1,0 +1,49 @@
+name: Alexey Chugunov
+phone: +44 (0) 7532 609248
+email: achugunov@nes.ru
+
+social:
+  github: a-chugunov
+  linkedin: achugunov
+
+summary: Commodities Quant at Citi
+
+work:
+  - company: Citi
+    years: 2020-Present
+    position: Commodities VP
+    summary: Commodities Model Validation
+    highlights:
+      - Complex modle val
+      - Designed and implemented several inhouse solutions
+  - company: EY
+    years: 2017-2020
+    position: Manager
+    summary: Market Risk Quantitative Advisory Servises
+      highlights:
+        - built smarts
+  - company: Gazpromank
+    years: 2014-2017
+    position: analyst
+
+education:
+  - institution: New Economic School
+    degree: MA in Economics
+    years: 2012-2014
+  - institution: Moscow State University
+    degree: Specialist in Mathematics and Computer Science
+    years: 2007-2012
+
+skills:
+  - Python
+  - C++
+  - Matlab
+
+languages:
+  - language: Russian
+    fluency: native
+  - language: English
+    fluency: fluent
+  - language: French
+    fluency: basic
+
