@@ -1,3 +1,3 @@
-# a-chugunov.github.io
+# chugunov.dev
 
 Personal CV page
