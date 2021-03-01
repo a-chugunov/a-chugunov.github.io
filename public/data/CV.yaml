@@ -1,0 +1,118 @@
+name: Alexey Chugunov
+
+contacts:
+  phone: +44 (0) 7532 609248
+  email: achugunov@nes.ru
+
+social:
+  github: a-chugunov
+  linkedin: alexeychugunov
+
+summary: Commodities Quant at Citi
+
+work:
+  - company: Citi
+    years: 2020-Present
+    location: London, United Kingdom
+    position: VP, Commodities Model Validaation
+    summary: Commodities Model Validation
+    highlights:
+      - Validation of complex Commodities products
+      - Designed and implemented several inhouse solutions
+  - company: EY
+    years: 2017-2020
+    location: London, United Kingdom
+    position: Manager
+    summary: Market Risk Quantitative Advisory Servises
+    highlights:
+      - Technical validation and testing of complex FO pricing models in Tier 1 US Global IB for Front Office Quant and Risk Teams
+      - Documentation of Wealth Business / Front Office Quant / Market Risk models in various Tier 1 Global IB
+      - Digital Product Management – lead team for developing various digital solutions
+      - Solution architect – responsible for designing, defining technology stack and monitoring multiple solutions development
+      - Full stack development (Python/R/Javascript) of various solutions
+      - DevOps and Cloud integration and implementation built solutions
+      - Lead the team to deliver high end products to the client
+  - company: Gazpromank
+    years: 2014-2017
+    location: Moscow, Russia
+    position: PE Analyst, Oil & Gas Projects Department
+    summary:
+    highlights:
+      - Problem assets management (risk analysis, strategy development, debt restructuring)
+      - Management consulting (strategy, operations; government consulting)
+      - Projects and companies analysis and valuation
+      - Financial services (M&A deals, debt issuance)
+      - Commodities market research
+      - Participation in coal, petrochemical, refinery, CNG, gold mining and gas trading projects
+
+education:
+  - institution: New Economic School
+    degree: MA in Economics
+    years: 2012-2014
+    highlights: >
+      Thesis: Copula-marginals parametrization trade-off in models for
+      financial returns
+  - institution: Moscow State University
+    degree: Specialist in Mathematics and Computer Science
+    years: 2007-2012
+    highlights: Thesis
+
+courses:
+  - name: Deep Learning Specialization
+    time: [5 courses / 70 hours]
+    issuieAuthority: Coursera
+    issueDate: Jul 2020
+    expirationDate: No Expiration Date
+    credentialId: 88B5S45TBL2K
+    url: https://www.coursera.org/account/accomplishments/specialization/certificate/88B5S45TBL2K
+
+  - name: Data Scientist with Python
+    time: [26 courses / 100 hours]
+    issuieAuthority: DataCamp
+    issueDate: Nov 2019
+    expirationDate: No Expiration Date
+    credentialId:
+    url: https://www.datacamp.com/statement-of-accomplishment/track/2a9bbab24998e09d83688ed6bc8ea67fc0dc4fff
+
+  - name: Data Scientist with R
+    time: [23 courses / 95 hours]
+    issuieAuthority: DataCamp
+    issueDate: Jul 2017
+    expirationDate: No Expiration Date
+    credentialId:
+    url: https://www.datacamp.com/statement-of-accomplishment/track/880ef21b6fb3f3f484937011ba5fde75e16d60c4
+
+  - name: Financial Risk Manager—Certified by the Global Association of Risk Professionals
+    time:
+    issuieAuthority: Global Association of Risk Professionals (GARP)
+    issueDate: Dec 2016
+    expirationDate: No Expiration Date
+    credentialId:
+    url: http://my.garp.org/DigitalBadgeFRM?id=0034000001gCpuKAAS
+
+skills:
+  - category: Computer skills
+    skill:
+      - Derivatives
+      - Commodities
+      - Equities
+      - Structured Finance
+  - category: Financial skills
+    skill:
+      - Python
+      - C++
+      - Matlab
+
+languages:
+  - language: Russian
+    fluency: native
+  - language: English
+    fluency: fluent
+  - language: French
+    fluency: basic
+
+hobbies:
+  - travelling
+  - snowboarding
+  - buggies
+
