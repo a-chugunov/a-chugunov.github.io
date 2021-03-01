@@ -1,6 +1,8 @@
 name: Alexey Chugunov
-phone: +44 (0) 7532 609248
-email: achugunov@nes.ru
+
+contacts:
+  phone: +44 (0) 7532 609248
+  email: achugunov@nes.ru
 
 social:
   github: a-chugunov
@@ -32,6 +34,7 @@ work:
       - Lead the team to deliver high end products to the client
   - company: Gazpromank
     years: 2014-2017
+    location: Moscow, Russia
     position: PE Analyst, Oil & Gas Projects Department
     summary:
     highlights:
@@ -46,11 +49,15 @@ education:
   - institution: New Economic School
     degree: MA in Economics
     years: 2012-2014
+    highlights: >
+      Thesis: Copula-marginals parametrization trade-off in models for
+      financial returns
   - institution: Moscow State University
     degree: Specialist in Mathematics and Computer Science
     years: 2007-2012
+    highlights: Thesis
 
-Courses:
+courses:
   - name: Deep Learning Specialization
     time: [5 courses / 70 hours]
     issuieAuthority: Coursera
@@ -84,9 +91,17 @@ Courses:
     url: http://my.garp.org/DigitalBadgeFRM?id=0034000001gCpuKAAS
 
 skills:
-  - Python
-  - C++
-  - Matlab
+  - category: Computer skills
+    skill:
+      - Derivatives
+      - Commodities
+      - Equities
+      - Structured Finance
+  - category: Financial skills
+    skill:
+      - Python
+      - C++
+      - Matlab
 
 languages:
   - language: Russian
