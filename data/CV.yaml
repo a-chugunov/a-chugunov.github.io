@@ -5,8 +5,12 @@ contacts:
   email: achugunov@nes.ru
 
 social:
-  github: a-chugunov
-  linkedin: alexeychugunov
+  github:
+    id: a-chugunov
+    url: https://github.com/a-chugunov/
+  linkedin:
+    id: alexeychugunov
+    url: https://www.linkedin.com/in/alexeychugunov/
 
 summary: Commodities Quant at Citi
 
