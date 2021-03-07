@@ -11,6 +11,11 @@ const AppLayout = (props) => {
             <Navigation themeClick={themeToggler} isThemeLight={themeType} />
             {/* <Navigation /> */}
             <Routes />
+            <div>
+                <br />
+                <br />
+                <br />
+            </div>
         </div>
     );
 };

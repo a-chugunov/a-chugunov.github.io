@@ -8,7 +8,7 @@ const Skills = (props) => {
         <dd key={category}>
             <h2>{category}</h2>
             <p>
-                <ul>
+                <ul style={{ WebkitColumnCount: 4, MozColumnCount: 4, ColumnCount: 4 }}>
                     {skill.map((item) => (
                         <li key={item}>{item}</li>
                     ))}
