@@ -59,7 +59,8 @@ education:
   - institution: Moscow State University
     degree: Specialist in Mathematics and Computer Science
     years: 2007-2012
-    highlights: Thesis
+    highlights: >
+      Thesis: Pareto frontier visualisation in complex potential assessment systems
 
 courses:
   - name: Deep Learning Specialization
