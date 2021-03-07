@@ -7,6 +7,8 @@ import Work from './Work';
 import Education from './Education';
 import Skills from './Skills';
 
+import './CV.css';
+
 const CV = () => {
     const [cvData, setCvData] = useState({});
 
@@ -20,20 +22,22 @@ const CV = () => {
     }, []);
 
     return (
-        <div id="page-wrap">
-            <div className="clear" />
-            <Title name={cvData.name} contacts={cvData.contacts} />
-            <div className="clear" />
-            <Summary summary={cvData.summary} />
-            <div className="clear" />
-            <dl>
-                <Work work={cvData.work} />
+        <div>
+            <div id="page-wrap">
                 <div className="clear" />
-                <Education education={cvData.education} />
+                <Title name={cvData.name} contacts={cvData.contacts} />
                 <div className="clear" />
-                <Skills skills={cvData.skills} />
+                <Summary summary={cvData.summary} />
                 <div className="clear" />
-            </dl>
+                <dl>
+                    <Work work={cvData.work} />
+                    <div className="clear" />
+                    <Education education={cvData.education} />
+                    <div className="clear" />
+                    <Skills skills={cvData.skills} />
+                    <div className="clear" />
+                </dl>
+            </div>
         </div>
     );
 };

@@ -8,11 +8,12 @@ const Work = (props) => {
         <dd key={company}>
             <h2>
                 {company}
-                <span>
-                    {location}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{years}
-                </span>
+                <span>{years}</span>
             </h2>
-            <h3>{position}</h3>
+            <h2>
+                {position}
+                <span>{location}</span>
+            </h2>
             <p>
                 {summary}
                 <br />

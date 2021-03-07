@@ -1,12 +1,13 @@
 import React from 'react';
 
-import './AppLayout.css';
-import CV from './cv/CV';
+import Navigation from './Navigation';
+import Routes from './Routes';
 
 const AppLayout = () => {
     return (
         <div>
-            <CV />
+            <Navigation />
+            <Routes />
         </div>
     );
 };
