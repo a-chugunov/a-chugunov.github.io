@@ -1,5 +1,4 @@
-/* eslint-disable  */
-import React, { useState } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 import { Link as RouterLink } from 'react-router-dom';
@@ -23,7 +22,8 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-const Navigation = () => {
+const Navigation = (props) => {
+    const { themeClick, isThemeLight } = props;
     const classes = useStyles();
 
     const trigger = useScrollTrigger({
@@ -33,7 +33,7 @@ const Navigation = () => {
 
     return (
         <div className={classes.root}>
-            <AppBar elevation={trigger ? 4 : 0}>
+            <AppBar elevation={trigger ? 4 : 0} color={trigger ? 'default' : 'transparent'}>
                 <Toolbar className={classes.myToolbar}>
                     <Typography variant="h6" color="inherit" className={classes.title}>
                         chugunov.dev
@@ -74,12 +74,24 @@ const Navigation = () => {
                         >
                             <Icon className="fab fa-linkedin-in" />
                         </Button>
+                        <Button color="inherit" onClick={themeClick}>
+                            {isThemeLight ? (
+                                <Icon className="fas fa-moon" />
+                            ) : (
+                                <Icon className="fas fa-sun" />
+                            )}
+                        </Button>
                     </div>
                 </Toolbar>
             </AppBar>
             <Toolbar className={classes.myToolbar} />
         </div>
     );
+};
+
+Navigation.propTypes = {
+    themeClick: PropTypes.func.isRequired,
+    isThemeLight: PropTypes.bool.isRequired
 };
 
 export default Navigation;

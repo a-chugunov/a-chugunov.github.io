@@ -7,7 +7,8 @@ const Education = (props) => {
     const edList = education.map(({ institution, degree, years, highlights }) => (
         <dd key={institution}>
             <h2>
-                {institution} - {years}
+                {institution}
+                <span>{years}</span>
             </h2>
             <p>
                 {degree}
