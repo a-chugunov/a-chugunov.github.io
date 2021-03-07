@@ -96,17 +96,51 @@ courses:
     url: http://my.garp.org/DigitalBadgeFRM?id=0034000001gCpuKAAS
 
 skills:
-  - category: Computer skills
+  - category: Finance
     skill:
       - Derivatives
       - Commodities
       - Equities
       - Structured Finance
-  - category: Financial skills
+      - Multiobjective Optimization
+      - Machine Learning
+  - category: Modeling
     skill:
       - Python
-      - C++
+      - R
       - Matlab
+      - Excel
+      - Stata
+  - category: Frameworks
+    skill:
+      - Tensorflow
+      - Django
+      - Flask
+      - React
+      - Celery
+  - category: Programming
+    skill:
+      - C/C++
+      - C#
+      - Javascript
+      - Parallel programming
+      - SQL
+  - category: Cloud solutions
+    skill:
+      - Docker
+      - Kubernetes
+      - Azure
+      - Apache Spark
+  - category: DevOps
+    skill:
+      - Git
+      - Bitbucket
+      - Jira
+      - Continous Integration
+  - category: Documentation
+    skill:
+      - LaTeX
+      - MS Office
 
 languages:
   - language: Russian
@@ -119,5 +153,6 @@ languages:
 hobbies:
   - travelling
   - snowboarding
-  - buggies
+  - quad biking
+  - cycling
 
