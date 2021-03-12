@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
     },
     cvPaper: {
         maxWidth: '800px',
-        minWidth: '400px',
+        minWidth: '370px',
         padding: theme.spacing(2),
         [theme.breakpoints.up('md')]: {
             marginRight: theme.spacing(5),

@@ -18,8 +18,8 @@ function App() {
 
     return (
         <div className="App">
-            <CssBaseline />
             <ThemeProvider theme={isThemeLight ? { ...themeLight } : { ...themeDark }}>
+                <CssBaseline />
                 <BrowserRouter>
                     <AppLayout themeToggler={changeTheme} themeType={isThemeLight} />
                 </BrowserRouter>

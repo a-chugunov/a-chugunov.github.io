@@ -7,9 +7,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import Navigation from './Navigation';
 import Routes from './Routes';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
     mainWrapperBox: {
-        backgroundColor: theme.palette.background.default,
         minHeight: '100vh'
     }
 }));
