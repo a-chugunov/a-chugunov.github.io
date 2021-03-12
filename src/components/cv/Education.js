@@ -1,29 +1,40 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
+
+import { makeStyles } from '@material-ui/core/styles';
+import { Box, Grid, Typography } from '@material-ui/core';
+
+const useStyles = makeStyles((theme) => ({
+    gridtitle: {
+        marginBottom: theme.spacing(0.5),
+        marginTop: theme.spacing(1.5)
+    }
+}));
 
 const Education = (props) => {
     const { education = [] } = props;
+    const classes = useStyles();
 
     const edList = education.map(({ institution, degree, years, highlights }) => (
-        <dd key={institution}>
-            <h2>
-                {institution}
-                <span>{years}</span>
-            </h2>
-            <p>
+        <Box key={institution}>
+            <Grid container justify="space-between" className={classes.gridtitle}>
+                <Typography variant="h6" align="left">
+                    {institution}
+                </Typography>
+                <Typography variant="h6" align="right">
+                    {years}
+                </Typography>
+            </Grid>
+
+            <Typography variant="body1">
                 {degree}
                 <br />
                 {highlights}
-            </p>
-        </dd>
+            </Typography>
+        </Box>
     ));
 
-    return (
-        <div>
-            <dt>Education</dt>
-            {edList}
-        </div>
-    );
+    return <Fragment key="cvEducation">{edList}</Fragment>;
 };
 
 export default Education;
