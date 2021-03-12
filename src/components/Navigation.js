@@ -25,11 +25,13 @@ const useStyles = makeStyles((theme) => ({
     },
     menuButton: {
         marginRight: theme.spacing(1),
-        marginLeft: theme.spacing(1)
+        marginLeft: theme.spacing(1),
+        color: theme.palette.text.primary
     },
     title: {
         display: 'block',
-        flexGrow: 1
+        flexGrow: 1,
+        color: theme.palette.text.primary
     },
 
     myToolbar: {
@@ -38,13 +40,13 @@ const useStyles = makeStyles((theme) => ({
 
     centerMenuDesktop: {
         display: 'none',
-
         [theme.breakpoints.up('sm')]: {
             display: 'flex'
         }
     },
     centerMenuMobile: {
         display: 'flex',
+        color: theme.palette.text.primary,
         [theme.breakpoints.up('sm')]: {
             display: 'none'
         }
@@ -54,10 +56,12 @@ const useStyles = makeStyles((theme) => ({
         display: 'none',
         [theme.breakpoints.up('sm')]: {
             display: 'flex'
-        }
+        },
+        color: theme.palette.text.primary
     },
     sectionMobile: {
         display: 'flex',
+        color: theme.palette.text.primary,
         [theme.breakpoints.up('sm')]: {
             display: 'none'
         }

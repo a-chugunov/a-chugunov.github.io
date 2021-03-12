@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-import CV from './cv/CV';
+import CV from './cv/CV2';
 import Home from './Home';
 import NoPageFound from './NoPageFound';
 
