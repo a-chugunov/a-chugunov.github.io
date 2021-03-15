@@ -21,8 +21,11 @@ work:
     position: VP, Commodities Model Validaation
     summary: Commodities Model Validation
     highlights:
-      - Validation of complex Commodities products
-      - Designed and implemented several inhouse solutions
+      - Technical validation of pricing models for complex commodities products
+      - Developed Framework for Business Automation solutions
+      - Introduced parallelization to independent model validation solution
+      - Integrated DevOps into various projects
+      - Introduced Team Management Solutions
   - company: EY
     years: 2017-2020
     location: London, United Kingdom
@@ -137,10 +140,14 @@ skills:
       - Bitbucket
       - Jira
       - Continous Integration
+      - Automated testing
+      - Gitpod
   - category: Documentation
     skill:
       - LaTeX
+      - Markdown
       - MS Office
+      - MkDocs
 
 languages:
   - language: Russian
